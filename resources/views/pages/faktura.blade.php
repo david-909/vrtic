@@ -1,0 +1,14 @@
+@extends('layouts.layout')
+@push('additionalHeads')
+    @livewireStyles
+    @flasher_render
+@endpush
+@section('title')
+    Fakture
+@endsection
+@section('content')
+    @push('additionalScripts')
+        @livewireScripts
+        @livewire('livewire-ui-modal')
+    @endpush
+@endsection

@@ -1,0 +1,21 @@
+da imas svu decu, podaci (maticni broj roditelja, deteta, broj LK roditelja, adresa) o njima i roditeljima,
+svako dete se vezuje za broj ugovora - svake godine u sept se potpise novi ugovor (pamti se prosli)
+svako dete treba da ima poziv na broj koji se sastoji od broja ugovora i meseca za koji placa (ako moze taj mesec da se ubaci)
+treba da se pravi faktura(pdf) za svako dete za dati mesec, i da se pravi uplatnica sa popunjenim podacima na 1 papiru
+fakturom se dete zaduzuje, a kad plati onda se razduzuje
+kad se klikne na dete da izadje istorija placanja, a ima odma pregled sve dece i njihov dug
+
+05/22
+
+05/22-6
+05/22-7
+
+PHPflasher
+livewire
+DOMPdf
+
+
+
+Dodati da moze da se napravi novi ugovor za dete
+Dodati da moze da se unese mejl kome treba da stigne faktura
+Ugovor se ipak ne obnavlja, nego se zavede jednom pri upisu na taj br i onda se koristi taj br ug, promeniti nacin formiranja broja ugovora da bude br-ugovor-mesec-godina

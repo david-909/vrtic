@@ -1,0 +1,56 @@
+.btnsvg {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .btn-crud {
+    position: relative;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    transition: ease .3s;
+    text-align: center;
+  }
+  .btn-crud svg {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    vertical-align: middle;
+    height: 25px;
+    fill: white;
+  }
+  .btn-crud:hover{
+    clear: both;
+    transform: scale(1.025);
+  }
+  .btn-crud1{
+    background: #ff872c;
+  }
+  .btn-crud1:hover{
+    background: #ff9e53;
+  }
+  .btn-crud2 {
+    background: #88369d;
+  }
+  .btn-crud2:hover{
+    background: #a95cbd;
+  }
+  .btn-crud3 {
+    background: #3676d7;
+  }
+  .btn-crud3:hover{
+    background: #2c457a;
+  }
+  .btn-crud4 {
+    background: #d52a2a;
+  }
+  .btn-crud4:hover{
+    background: #ed5d5d;
+  }
+  .btn-pay svg{
+    fill: #008000;
+    width: 30px;
+    height: 30px;
+  }

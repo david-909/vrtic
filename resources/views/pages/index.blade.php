@@ -1,0 +1,15 @@
+@extends('layouts.layout')
+@push('additionalHeads')
+    @livewireStyles
+    @flasher_render
+@endpush
+@section('title')
+    Deca
+@endsection
+@section('content')
+    <livewire:deca-tabelica>
+        @push('additionalScripts')
+            @livewireScripts
+            @livewire('livewire-ui-modal')
+        @endpush
+    @endsection
